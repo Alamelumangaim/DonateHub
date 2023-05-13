@@ -1,0 +1,10 @@
+@import "style.css";
+
+.headline {
+  border: 1px solid transparent;
+  height: auto;
+}
+.cont p{
+    font-size: large;
+    background-color: rgb(216, 167, 19);
+}

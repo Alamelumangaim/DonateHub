@@ -1,0 +1,120 @@
+@import "style.css";
+
+.headline {
+  border: 1px solid transparent;
+  height: auto;
+}
+
+.program1 {
+  text-align: center;
+}
+
+.description1 {
+  background-color: #fff;
+  color: #272a31;
+}
+
+.hamburger.active {
+  margin: 0 20px auto 0;
+}
+.program1 h1 {
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+.program1 p {
+  color: #272a31;
+  margin-top: 20px;
+}
+  
+.program1 a {
+  margin-top: 10px;
+  color: #272a31;
+  font-weight: 600;
+}
+.giveaway {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.giveaway h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: blue;
+  margin: 50px auto 10px auto;
+}
+
+.giveaway span {
+  display: block;
+  margin: 0 auto 5px auto;
+  width: 50px;
+  height: 5px;
+  background-color: #ec5242;
+}
+
+.giveaway-item {
+  max-width: 500px;
+  height: 400px;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+
+.giveaway-info {
+  max-width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: #ca2a189d;
+}
+
+.giveaway-info p {
+  margin: 0 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.giveaway-info h3 {
+  color: #fff;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 18px;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+    .program1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+    }
+  
+    .program1 span {
+      width: 50px;
+      height: 2px;
+      background-color: #ec5242;
+    }
+  
+    .program1 h1 {
+      line-height: 60px;
+    }
+  
+    .description1 {
+      font-size: 15px;
+      line-height: 25px;
+      color: #272a31;
+      padding: 20px 50px;
+    }
+  
+    .program1 p {
+      margin-top: 50px;
+    }
+    .giveaway-content {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0 30px;
+      cursor: pointer;
+      flex-wrap: wrap;
+    }
+}
+  

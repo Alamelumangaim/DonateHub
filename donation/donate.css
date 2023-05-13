@@ -1,0 +1,111 @@
+@import "style.css";
+
+.headline {
+  border: 1px solid transparent;
+  height: auto;
+}
+.hamburger.active {
+  margin: 0 20px auto 0;
+}
+.form{
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(to top,rgba(177, 177, 177, 0.8)50%,rgba(177, 177, 177, 0.8)50%);
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    border-radius: 10px;
+    padding: 25px;
+
+
+}
+.form h4{
+    width: 220px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #e14d12;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #e46018;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:#fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: #e46018;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btn:hover{
+    background: #fff;
+    color: #e46018;
+}
+.btn a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.form .link a{
+    text-decoration: none;
+    color: #e46018 ;
+    text-align: center;
+
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-right: 350px;
+}
+.icon a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icon ion-icon:hover{
+    color:#e46018;
+}

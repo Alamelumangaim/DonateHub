@@ -1,0 +1,62 @@
+@import "style.css";
+
+.headline {
+  border: 1px solid transparent;
+  height: auto;
+}
+
+.news {
+  text-align: center;
+}
+
+.description1 {
+  background-color: #fff;
+  color: #272a31;
+}
+
+.hamburger.active {
+  margin: 0 20px auto 0;
+}
+.news h1 {
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+.news p {
+  color: #272a31;
+  margin-top: 20px;
+}
+  
+.news a {
+  margin-top: 10px;
+  color: #272a31;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .news {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+  }
+  
+  .news span {
+      width: 50px;
+      height: 2px;
+      background-color: #ec5242;
+  }
+  
+  .news h2 {
+      line-height: 60px;
+  }
+  
+  .description1 {
+      font-size: 15px;
+      line-height: 25px;
+      color: #272a31;
+      padding: 20px 50px;
+  }
+  
+  .news p {
+      margin-top: 50px;
+  }
+}
